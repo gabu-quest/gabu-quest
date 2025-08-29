@@ -1,6 +1,6 @@
 # Gabriel Cottrell | ガブリエル・コットレル
 
-👋 Hello! I’m Gabriel (Gaburyuu), a software developer based in Shiga, Japan.  
+👋 Hello! I’m Gabe (ガブ), a software developer based in Shiga, Japan.  
 I specialize in **Python, data systems, and backend development**, with a strong focus on reliability, documentation, and process improvement.  
 Currently building tools like [SQLer](https://github.com/gabu-quest/sqler) — a JSON-first ORM/DSL for SQLite.
 
