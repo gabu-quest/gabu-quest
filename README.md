@@ -71,15 +71,19 @@ SSH multiplexer with tmux-in-browser. Local-only, nothing exposed.
 
 ### Logler
 
-Log viewer with teeth. Thread tracking, correlation IDs, Rust-powered investigation engine.
-本気のログビューア。スレッド追跡、相関ID、Rust製の調査エンジン。
+Rust-powered log investigation for humans and AI agents.
+人間とAIエージェント向けのRust製ログ調査エンジン。
 
-- Rich terminal output with hierarchical visualization
-- Bottleneck detection across distributed systems
-- Multiple log format support
-- Optimized for AI agent consumption
+- Rust core: search 1GB files in <50ms, parallel indexing with Rayon
+- Thread hierarchy with tree, waterfall, flamegraph views and bottleneck detection
+- Cross-service timeline reconstruction and error flow tracing
+- 25 LLM-optimized CLI commands with structured JSON output (44x token savings)
+- Multi-format parser: JSON, syslog, logfmt, Apache CLF, plain text
+- Investigation sessions, smart sampling, z-score anomaly detection
+- 17 interactive marimo tours via WASM — no install needed
+- 1000+ tests, README contracts enforced by CI
 
-[Repository](https://github.com/gabu-quest/logler) · [PyPI](https://pypi.org/project/logler/)
+[Repository](https://github.com/gabu-quest/logler) · [PyPI](https://pypi.org/project/logler/) · [Interactive Tours](https://gabu-quest.github.io/logler/)
 
 ### Logler Web
 
