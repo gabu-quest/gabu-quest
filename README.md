@@ -74,14 +74,14 @@ SSH multiplexer with tmux-in-browser. Local-only, nothing exposed.
 Rust-powered log investigation for humans and AI agents.
 人間とAIエージェント向けのRust製ログ調査エンジン。
 
-- Rust core: search 1GB files in <50ms, parallel indexing with Rayon
+- Benchmarked: 257K entries/sec search, 2.6ms thread follow, 2540x token savings
 - Thread hierarchy with tree, waterfall, flamegraph views and bottleneck detection
-- Cross-service timeline reconstruction and error flow tracing
-- 25 LLM-optimized CLI commands with structured JSON output (44x token savings)
+- Cross-service timeline reconstruction (13ms for 5 services) and error flow tracing
+- 25 LLM-optimized CLI commands with structured JSON output
 - Multi-format parser: JSON, syslog, logfmt, Apache CLF, plain text
 - Investigation sessions, smart sampling, z-score anomaly detection
 - 17 interactive marimo tours via WASM — no install needed
-- 1000+ tests, README contracts enforced by CI
+- 1000+ tests, 14 benchmark scenarios, README contracts enforced by CI
 
 [Repository](https://github.com/gabu-quest/logler) · [PyPI](https://pypi.org/project/logler/) · [Interactive Tours](https://gabu-quest.github.io/logler/)
 
