@@ -29,8 +29,10 @@ SQLite用マイクロORM。JSON中心、Pydanticネイティブ、余計な儀�
 - Fluent query builder, FTS5 full-text search, relationship hydration
 - Async + sync APIs, connection pooling, schema migrations
 - Optimistic versioning for concurrent writes
+- 11 interactive browser tours via Pyodide/WASM — no install needed
+- Benchmarked: 84K rows/sec bulk insert, 470x index speedup, 0.28ms FTS
 
-[Repository](https://github.com/gabu-quest/sqler) · [PyPI](https://pypi.org/project/sqler/)
+[Repository](https://github.com/gabu-quest/sqler) · [PyPI](https://pypi.org/project/sqler/) · [Interactive Tours](https://gabu-quest.github.io/sqler/)
 
 ### SQLer CLI
 
